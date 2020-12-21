@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_aboutme" />
+        <item
+            android:id="@+id/nav_parcours"
+            android:icon="@drawable/parcours"
+            android:title="@string/menu_parcours" />
+        <item
+            android:id="@+id/nav_stage"
+            android:icon="@drawable/stage"
+            android:title="@string/menu_Stages" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_hack"
+            android:title="@string/menu_event" />
+        <item
+            android:id="@+id/nav_formation"
+            android:icon="@drawable/ic_training"
+            android:title="@string/menu_formation" />
+        <item
+            android:id="@+id/nav_certif"
+            android:icon="@drawable/ic_icon"
+            android:title="@string/menu_certification" />
+        <item
+            android:id="@+id/nav_competance"
+            android:icon="@drawable/ic_skils"
+            android:title="@string/menu_compétences" />
+        <item
+            android:id="@+id/nav_langue"
+            android:icon="@drawable/language"
+            android:title="@string/menu_langues" />
+        <item
+            android:id="@+id/nav_club"
+            android:icon="@drawable/club"
+            android:title="@string/menu_club" />
+    </group>
+
+</menu>

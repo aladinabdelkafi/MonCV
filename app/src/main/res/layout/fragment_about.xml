@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/unnamed"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="25dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/imageala"
+                    android:gravity="bottom"
+                    />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/usrusr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="left"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:text="Nom"
+                android:textColor="#a2a1b8"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/ususr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="right"
+                android:hint="Abdelkafi Alaeddine"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:textColor="#a2a1b8"
+                android:textColorHint="#a2a1b8"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/mail"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#a2a1b8"
+                android:maxLength="12"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/maill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="right"
+                android:hint="@string/mail"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:textColor="#a2a1b8"
+                android:textColorHint="#a2a1b8"
+                android:textSize="16dp" />
+        </LinearLayout>
+        />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/pswrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="left"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:text="Lieu Naissance"
+                android:textColor="#a2a1b8"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/pswrdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="right"
+                android:hint="@string/localisation"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:textColor="#a2a1b8"
+                android:textColorHint="#a2a1b8"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/fbook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="left"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:text="Numero Telephone"
+                android:textColor="#a2a1b8"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="right"
+                android:hint="@string/tel"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:textColor="#a2a1b8"
+                android:textColorHint="#a2a1b8"
+                android:textSize="16dp" />
+
+            <!--com.rey.material.widget.Switch!-->
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/goooogleee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="left"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:text="Date Naissance"
+                android:textColor="#a2a1b8"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/goooglggeee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:gravity="right"
+                android:hint="@string/date"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:textColorHint="#a2a1b8"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

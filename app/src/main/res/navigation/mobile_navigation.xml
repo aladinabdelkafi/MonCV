@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_about">
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.projetcv.ui.about.AboutFragment"
+        android:label="@string/menu_aboutme"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_parcours"
+        android:name="com.example.projetcv.ui.parcours.ParcoursFragment"
+        android:label="@string/menu_parcours"
+        tools:layout="@layout/fragment_parcours" />
+
+    <fragment
+        android:id="@+id/nav_stage"
+        android:name="com.example.projetcv.StageFragment"
+        android:label="@string/menu_Stages"
+        tools:layout="@layout/fragment_stage" />
+
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.projetcv.ui.evenement.EventFragment"
+        android:label="@string/menu_event"
+        tools:layout="@layout/fragment_event" />
+
+    <fragment
+        android:id="@+id/nav_formation"
+        android:name="com.example.projetcv.ui.formation.FormationFragment"
+        android:label="@string/menu_formation"
+        tools:layout="@layout/fragment_event" />
+
+
+    <fragment
+        android:id="@+id/nav_certif"
+        android:name="com.example.projetcv.ui.certif.CertifFragment"
+        android:label="@string/menu_certification"
+        tools:layout="@layout/fragment_event" />
+
+    <fragment
+        android:id="@+id/nav_competance"
+        android:name="com.example.projetcv.ui.competance.CompetanceFragment"
+        android:label="@string/menu_compétences"
+        tools:layout="@layout/fragment_competance" />
+    <fragment
+        android:id="@+id/nav_langue"
+        android:name="com.example.projetcv.ui.langue.LangueFragment"
+        android:label="@string/menu_langues"
+        tools:layout="@layout/fragment_langue" />
+
+    <fragment
+        android:id="@+id/nav_club"
+        android:name="com.example.projetcv.ui.club.ClubFragment"
+        android:label="@string/menu_club"
+        tools:layout="@layout/fragment_club" />
+
+</navigation>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+
+        <TableRow
+
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_imag"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mtciit"
+                app:civ_border_color="#0629F0"
+                app:civ_border_width="4dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="25dp"
+            >
+
+            <TextView
+                android:id="@+id/textView388"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="Président"
+                android:textColor="#0622E2"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_imge1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mtciset"
+                app:civ_border_color="#0629F0"
+                app:civ_border_width="4dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:textColor="#0622E2"
+                android:text="Responsable organisation"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="210dp"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image2"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/python"
+
+                app:civ_border_color="#F00621"
+                app:civ_border_width="4dp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0622E2"
+                android:gravity="center"
+                android:text="Trésorier"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_im"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/robotique"
+
+                app:civ_border_color="#06F077"
+                app:civ_border_width="4dp" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#0622E2"
+                android:gravity="center"
+                android:text="Membre"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
